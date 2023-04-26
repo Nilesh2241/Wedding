@@ -1,0 +1,93 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color:#666
+}
+.pimg1{
+    background-image: url(nj.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pimg{
+    background-image: url(anand-shetye-ERlkwgofCkg-unsplash.jpg);
+    min-height: 600px;
+}
+.pimg2{
+    background-image: url(nj\ \(1\).jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(nj\ \(3\).jpg);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(nj\ \(2\).jpg);
+    min-height: 400px;
+}
+ .pimg ,.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    width: 100%;
+    top:50%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+.text{
+    position: absolute;
+    width: 100%;
+     top:20%;
+     left: 23%;
+    color: black;
+    text-transform: uppercase;
+}
+.new{
+    position: absolute;
+    width: 100%;
+     top:20%;
+     left: 57%;
+    color: black;
+    text-transform: uppercase;
+}
+.bg{
+    color: yellow;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:2px 4px 6px rgb(0, 255, 0) ;
+}
+.textbg{
+    background: #000000;
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:2px 4px 6px rgb(0, 255, 0) ;
+}
+.sectionlight{
+padding: 50px 80px;
+text-align: center;
+background-color: #fff;
+color: grey;
+}
+.sectiondark{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #6d5f5f;
+    color: rgb(255, 255, 255);
+    }
+
